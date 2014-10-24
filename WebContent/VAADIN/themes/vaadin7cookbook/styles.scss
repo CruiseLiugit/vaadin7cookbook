@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "vaadin7cookbook.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadin7cookbook.scss */
+.vaadin7cookbook {
+  @include addons;
+  @include vaadin7cookbook;
+}
